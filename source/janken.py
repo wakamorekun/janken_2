@@ -8,7 +8,7 @@ def janken_main():
     draw_janken = 0    
 
     while player_win + cpu_win + draw_janken < 3:
-        player_hand = player.player_pon()
+        player_hand = player.human_pon()
         cpu_hand = computer.computer_pon()
         print(f"あなたの手：{player_hand}\nコンピュータの手：{cpu_hand}")
 
